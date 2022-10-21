@@ -2,9 +2,9 @@
   <div>
     <div class="line"></div>
     <el-menu mode="horizontal" @select="handleSelect">
-      <el-menu-item index="1">首页</el-menu-item>
-      <el-menu-item index="3">招工</el-menu-item>
-      <el-menu-item index="4">找活</el-menu-item>
+      <el-menu-item index="1"><nuxt-link to="/">首页</nuxt-link></el-menu-item>
+      <el-menu-item index="3"><nuxt-link to="/findwork">我要找活</nuxt-link></el-menu-item>
+      <el-menu-item index="4"><nuxt-link to="/findworker">我要招工</nuxt-link></el-menu-item>
     </el-menu>
   </div>
 </template>

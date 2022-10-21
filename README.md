@@ -1,4 +1,4 @@
-# zhaopin-web
+# nuxt-web
 
 ## Build Setup
 
